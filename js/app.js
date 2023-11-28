@@ -35,6 +35,6 @@ function verTiempo() {
     let minutos = tiempo.getMinutes() < 10 ? '0' + tiempo.getMinutes() : tiempo.getMinutes();
     let segundos = tiempo.getSeconds() < 10 ? '0' + tiempo.getSeconds() : tiempo.getSeconds();
     let ampm = tiempo.getHours() >= 12 ? 'PM' : 'AM';
-    var currentTime = horas + ':' + minutos + ':' + segundos + ' ' + ampm;
-    return currentTime;
+    let verTiempo = horas + ':' + minutos + ':' + segundos + ' ' + ampm;
+    return verTiempo;
 }
