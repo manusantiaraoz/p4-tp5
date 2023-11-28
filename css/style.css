@@ -1,0 +1,18 @@
+/* dejar el main mas grande */
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main{
+    flex-grow: 1;
+    background-image: url( https://www.pixelstalk.net/wp-content/uploads/2016/10/Latest-pc-wallpapers.jpg) ;
+}
+/* aqui termina */
+
+h3,h2{
+    font-family: 'Bungee Outline', sans-serif;
+color: #fdcae1;
+
+}
